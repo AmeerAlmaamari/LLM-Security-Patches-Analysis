@@ -6,7 +6,7 @@ The study investigates why Large Language Models fail at security patch generati
 
 ## Overview
 
-![Experiment Pipeline](replication/experiment_pipeline.png)
+![Experiment Pipeline](experiment_pipeline.png)
 
 The experiment consists of three main phases:
 
@@ -24,7 +24,7 @@ The experiment consists of three main phases:
 ## Repository Structure
 
 ```
-almaamari/
+LLM-Security-Patches-Analysis/
 ├── README.adoc              # This file
 ├── replication/             # Experiment replication package
 │   ├── scripts/             # Python scripts for each experiment step
@@ -75,7 +75,7 @@ This experiment uses the OpenRouter API to access Gemini 3.0 Flash. You need an 
 Create a `.env` file in the `replication/` directory:
 
 ```bash
-cp replication/.env.template replication/.env
+cp .env.template replication/.env
 # Edit .env and add your API key
 ```
 
@@ -98,7 +98,7 @@ Clone the Vul4J repository:
 git clone https://github.com/tuhh-softsec/vul4j.git
 ```
 
-The Vul4J directory should be placed at the path specified in `replication/config.yaml` (default: `../vul4j` relative to the replication directory).
+The Vul4J directory should be placed at the path specified in `config.yaml` (default: `../vul4j` relative to the replication directory).
 
 ### Docker Environment
 
