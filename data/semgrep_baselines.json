@@ -1,0 +1,1072 @@
+{
+  "VUL4J-1": {
+    "vul_id": "VUL4J-1",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/com/alibaba/fastjson/serializer/ObjectArrayCodec.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:34:43.432498"
+  },
+  "VUL4J-2": {
+    "vul_id": "VUL4J-2",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:34:50.559877"
+  },
+  "VUL4J-3": {
+    "vul_id": "VUL4J-3",
+    "scan_type": "files",
+    "warning_count": 1,
+    "warnings": [
+      {
+        "rule_id": "java.lang.security.audit.xxe.saxparserfactory-disallow-doctype-decl-missing.saxparserfactory-disallow-doctype-decl-missing",
+        "message": "DOCTYPE declarations are enabled for this SAXParserFactory. This is vulnerable to XML external entity attacks. Disable this by setting the feature `http://apache.org/xml/features/disallow-doctype-decl` to true. Alternatively, allow DOCTYPE declarations and only prohibit external entities declarations. This can be done by setting the features `http://xml.org/sax/features/external-general-entities` and `http://xml.org/sax/features/external-parameter-entities` to false. NOTE - The previous links are not meant to be clicked. They are the literal config key values that are supposed to be used to disable these features. For more information, see https://semgrep.dev/docs/cheat-sheets/java-xxe/#3a-documentbuilderfactory.",
+        "severity": "ERROR",
+        "line": 601,
+        "path": "/workspace/data/vulnerabilities/VUL4J-3/camel-core/src/main/java/org/apache/camel/converter/jaxp/XmlConverter.java"
+      }
+    ],
+    "file_count": 1,
+    "file_results": {
+      "camel-core/src/main/java/org/apache/camel/converter/jaxp/XmlConverter.java": {
+        "warning_count": 1,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:34:57.601064"
+  },
+  "VUL4J-4": {
+    "vul_id": "VUL4J-4",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "camel-core/src/main/java/org/apache/camel/builder/xml/XPathBuilder.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:35:04.495409"
+  },
+  "VUL4J-5": {
+    "vul_id": "VUL4J-5",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/compress/archivers/examples/Expander.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:35:11.328634"
+  },
+  "VUL4J-6": {
+    "vul_id": "VUL4J-6",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:35:17.925862"
+  },
+  "VUL4J-7": {
+    "vul_id": "VUL4J-7",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:35:24.673794"
+  },
+  "VUL4J-8": {
+    "vul_id": "VUL4J-8",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:35:31.483661"
+  },
+  "VUL4J-9": {
+    "vul_id": "VUL4J-9",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:35:38.040100"
+  },
+  "VUL4J-10": {
+    "vul_id": "VUL4J-10",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:35:44.778965"
+  },
+  "VUL4J-11": {
+    "vul_id": "VUL4J-11",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 2,
+    "file_results": {
+      "src/main/java/org/apache/commons/fileupload/FileUploadBase.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "src/main/java/org/apache/commons/fileupload/MultipartStream.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:35:57.991926"
+  },
+  "VUL4J-12": {
+    "vul_id": "VUL4J-12",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:36:04.789090"
+  },
+  "VUL4J-13": {
+    "vul_id": "VUL4J-13",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeInfo.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:36:11.623457"
+  },
+  "VUL4J-14": {
+    "vul_id": "VUL4J-14",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/commons/io/FilenameUtils.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:36:18.689634"
+  },
+  "VUL4J-15": {
+    "vul_id": "VUL4J-15",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "rt/rs/extensions/providers/src/main/java/org/apache/cxf/jaxrs/provider/atom/AbstractAtomProvider.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:36:25.610205"
+  },
+  "VUL4J-16": {
+    "vul_id": "VUL4J-16",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "rt/rs/security/sso/saml/src/main/java/org/apache/cxf/rs/security/saml/sso/SAMLSSOResponseValidator.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:36:32.610532"
+  },
+  "VUL4J-17": {
+    "vul_id": "VUL4J-17",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "httpclient/src/main/java/org/apache/http/client/utils/URIBuilder.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:36:39.657572"
+  },
+  "VUL4J-18": {
+    "vul_id": "VUL4J-18",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "jspwiki-main/src/main/java/org/apache/wiki/url/DefaultURLConstructor.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:36:46.291926"
+  },
+  "VUL4J-19": {
+    "vul_id": "VUL4J-19",
+    "scan_type": "files",
+    "warning_count": 2,
+    "warnings": [
+      {
+        "rule_id": "java.lang.security.audit.crypto.ecb-cipher.ecb-cipher",
+        "message": "Cipher in ECB mode is detected. ECB mode produces the same output for the same input each time which allows an attacker to intercept and replay the data. Further, ECB mode does not provide any integrity checking. See https://find-sec-bugs.github.io/bugs.htm#CIPHER_INTEGRITY.",
+        "severity": "WARNING",
+        "line": 303,
+        "path": "/workspace/data/vulnerabilities/VUL4J-19/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java"
+      },
+      {
+        "rule_id": "java.lang.security.audit.crypto.use-of-aes-ecb.use-of-aes-ecb",
+        "message": "Use of AES with ECB mode detected. ECB doesn't provide message confidentiality and  is not semantically secure so should not be used. Instead, use a strong, secure cipher: Cipher.getInstance(\"AES/CBC/PKCS7PADDING\"). See https://owasp.org/www-community/Using_the_Java_Cryptographic_Extensions for more information.",
+        "severity": "WARNING",
+        "line": 303,
+        "path": "/workspace/data/vulnerabilities/VUL4J-19/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java"
+      }
+    ],
+    "file_count": 1,
+    "file_results": {
+      "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java": {
+        "warning_count": 2,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:36:53.829517"
+  },
+  "VUL4J-20": {
+    "vul_id": "VUL4J-20",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:37:00.643931"
+  },
+  "VUL4J-22": {
+    "vul_id": "VUL4J-22",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "web/src/main/java/org/apache/shiro/web/util/WebUtils.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:37:07.725304"
+  },
+  "VUL4J-23": {
+    "vul_id": "VUL4J-23",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "bundles/extensions/xss/src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:37:14.858367"
+  },
+  "VUL4J-24": {
+    "vul_id": "VUL4J-24",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "bundles/extensions/xss/src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:37:21.980587"
+  },
+  "VUL4J-25": {
+    "vul_id": "VUL4J-25",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:37:28.832658"
+  },
+  "VUL4J-26": {
+    "vul_id": "VUL4J-26",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:37:35.569379"
+  },
+  "VUL4J-27": {
+    "vul_id": "VUL4J-27",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 2,
+    "file_results": {
+      "core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "xwork-core/src/main/java/com/opensymphony/xwork2/interceptor/ParametersInterceptor.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:37:49.477392"
+  },
+  "VUL4J-29": {
+    "vul_id": "VUL4J-29",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "core/src/main/java/org/apache/struts2/interceptor/CookieInterceptor.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:37:56.081579"
+  },
+  "VUL4J-30": {
+    "vul_id": "VUL4J-30",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:38:02.745381"
+  },
+  "VUL4J-32": {
+    "vul_id": "VUL4J-32",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "xwork-core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:38:09.368045"
+  },
+  "VUL4J-33": {
+    "vul_id": "VUL4J-33",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "core/src/main/java/com/opensymphony/xwork2/ognl/OgnlUtil.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:38:16.310217"
+  },
+  "VUL4J-34": {
+    "vul_id": "VUL4J-34",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:38:23.068019"
+  },
+  "VUL4J-35": {
+    "vul_id": "VUL4J-35",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "core/src/main/java/org/apache/struts2/util/TokenHelper.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:38:29.764775"
+  },
+  "VUL4J-36": {
+    "vul_id": "VUL4J-36",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:38:36.536821"
+  },
+  "VUL4J-37": {
+    "vul_id": "VUL4J-37",
+    "scan_type": "files",
+    "warning_count": 1,
+    "warnings": [
+      {
+        "rule_id": "java.lang.security.audit.crypto.unencrypted-socket.unencrypted-socket",
+        "message": "Detected use of a Java socket that is not encrypted. As a result, the traffic could be read by an attacker intercepting the network traffic. Use an SSLSocket created by 'SSLSocketFactory' or 'SSLServerSocketFactory' instead.",
+        "severity": "WARNING",
+        "line": 181,
+        "path": "/workspace/data/vulnerabilities/VUL4J-37/arquillian/arquillian-tomee-common/src/main/java/org/apache/openejb/arquillian/common/Setup.java"
+      }
+    ],
+    "file_count": 6,
+    "file_results": {
+      "arquillian/arquillian-tomee-common/src/main/java/org/apache/openejb/arquillian/common/Setup.java": {
+        "warning_count": 1,
+        "success": true
+      },
+      "arquillian/arquillian-tomee-common/src/main/java/org/apache/openejb/arquillian/common/TomEEConfiguration.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "arquillian/arquillian-tomee-embedded/src/main/java/org/apache/openejb/arquillian/embedded/EmbeddedTomEEConfiguration.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "container/openejb-core/src/main/java/org/apache/openejb/core/rmi/BlacklistClassResolver.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "server/openejb-client/src/main/java/org/apache/openejb/client/EjbObjectInputStream.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "tomee/tomee-common/src/main/java/org/apache/tomee/installer/Installer.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:39:16.707116"
+  },
+  "VUL4J-38": {
+    "vul_id": "VUL4J-38",
+    "scan_type": "files",
+    "warning_count": 1,
+    "warnings": [
+      {
+        "rule_id": "java.lang.security.audit.xxe.saxparserfactory-disallow-doctype-decl-missing.saxparserfactory-disallow-doctype-decl-missing",
+        "message": "DOCTYPE declarations are enabled for this SAXParserFactory. This is vulnerable to XML external entity attacks. Disable this by setting the feature `http://apache.org/xml/features/disallow-doctype-decl` to true. Alternatively, allow DOCTYPE declarations and only prohibit external entities declarations. This can be done by setting the features `http://xml.org/sax/features/external-general-entities` and `http://xml.org/sax/features/external-parameter-entities` to false. NOTE - The previous links are not meant to be clicked. They are the literal config key values that are supposed to be used to disable these features. For more information, see https://semgrep.dev/docs/cheat-sheets/java-xxe/#3a-documentbuilderfactory.",
+        "severity": "ERROR",
+        "line": 139,
+        "path": "/workspace/data/vulnerabilities/VUL4J-38/cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java"
+      }
+    ],
+    "file_count": 2,
+    "file_results": {
+      "cas-client-core/src/main/java/org/jasig/cas/client/validation/AbstractUrlBasedTicketValidator.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "cas-client-core/src/main/java/org/jasig/cas/client/validation/Cas20ServiceTicketValidator.java": {
+        "warning_count": 1,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:39:30.221241"
+  },
+  "VUL4J-39": {
+    "vul_id": "VUL4J-39",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "server/src/main/java/org/cloudfoundry/identity/uaa/authentication/UaaAuthenticationDetails.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:39:36.959195"
+  },
+  "VUL4J-40": {
+    "vul_id": "VUL4J-40",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "server/src/main/java/org/cloudfoundry/identity/uaa/security/ScimUserSelfUpdateAllowed.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:39:43.865095"
+  },
+  "VUL4J-41": {
+    "vul_id": "VUL4J-41",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:39:51.038916"
+  },
+  "VUL4J-42": {
+    "vul_id": "VUL4J-42",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 3,
+    "file_results": {
+      "src/main/java/org/codehaus/plexus/util/cli/Commandline.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:40:10.392366"
+  },
+  "VUL4J-43": {
+    "vul_id": "VUL4J-43",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "util/src/main/java/org/eclipse/rdf4j/common/io/ZipUtil.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:40:17.003821"
+  },
+  "VUL4J-44": {
+    "vul_id": "VUL4J-44",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/owasp/esapi/codecs/PercentCodec.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:40:23.823789"
+  },
+  "VUL4J-45": {
+    "vul_id": "VUL4J-45",
+    "scan_type": "files",
+    "warning_count": 1,
+    "warnings": [
+      {
+        "rule_id": "java.lang.security.audit.xxe.transformerfactory-dtds-not-disabled.transformerfactory-dtds-not-disabled",
+        "message": "DOCTYPE declarations are enabled for this TransformerFactory. This is vulnerable to XML external entity attacks. Disable this by setting the attributes \"accessExternalDTD\" and \"accessExternalStylesheet\" to \"\".",
+        "severity": "ERROR",
+        "line": 91,
+        "path": "/workspace/data/vulnerabilities/VUL4J-45/esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java"
+      }
+    ],
+    "file_count": 1,
+    "file_results": {
+      "esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java": {
+        "warning_count": 1,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:40:30.421305"
+  },
+  "VUL4J-46": {
+    "vul_id": "VUL4J-46",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:40:37.163497"
+  },
+  "VUL4J-47": {
+    "vul_id": "VUL4J-47",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:40:44.064798"
+  },
+  "VUL4J-48": {
+    "vul_id": "VUL4J-48",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/primeframework/jwt/JWTDecoder.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:40:51.268593"
+  },
+  "VUL4J-49": {
+    "vul_id": "VUL4J-49",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/primeframework/jwt/JWTDecoder.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:40:57.846419"
+  },
+  "VUL4J-50": {
+    "vul_id": "VUL4J-50",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:41:04.701783"
+  },
+  "VUL4J-52": {
+    "vul_id": "VUL4J-52",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/kohsuke/groovy/sandbox/SandboxTransformer.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:41:11.365394"
+  },
+  "VUL4J-53": {
+    "vul_id": "VUL4J-53",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "core/src/main/java/hudson/scheduler/CronTab.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:41:18.051521"
+  },
+  "VUL4J-55": {
+    "vul_id": "VUL4J-55",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "core/src/main/java/hudson/scheduler/CronTab.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:41:24.550137"
+  },
+  "VUL4J-56": {
+    "vul_id": "VUL4J-56",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 2,
+    "file_results": {
+      "src/main/java/hudson/tasks/junit/SuiteResult.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "src/main/java/hudson/tasks/junit/XMLEntityResolver.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:41:37.649509"
+  },
+  "VUL4J-57": {
+    "vul_id": "VUL4J-57",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepExecution.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:41:45.012079"
+  },
+  "VUL4J-58": {
+    "vul_id": "VUL4J-58",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 2,
+    "file_results": {
+      "src/main/java/hudson/scm/SubversionRepositoryStatus.java": {
+        "warning_count": 0,
+        "success": true
+      },
+      "src/main/java/hudson/scm/SubversionStatus.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:41:57.787396"
+  },
+  "VUL4J-59": {
+    "vul_id": "VUL4J-59",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/jsoup/parser/TokeniserState.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:04.595792"
+  },
+  "VUL4J-60": {
+    "vul_id": "VUL4J-60",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:11.282747"
+  },
+  "VUL4J-61": {
+    "vul_id": "VUL4J-61",
+    "scan_type": "files",
+    "warning_count": 2,
+    "warnings": [
+      {
+        "rule_id": "java.lang.security.xmlinputfactory-possible-xxe.xmlinputfactory-possible-xxe",
+        "message": "XML external entities are not explicitly disabled for this XMLInputFactory. This could be vulnerable to XML external entity vulnerabilities. Explicitly disable external entities by setting \"javax.xml.stream.isSupportingExternalEntities\" to false.",
+        "severity": "WARNING",
+        "line": 39,
+        "path": "/workspace/data/vulnerabilities/VUL4J-61/src/main/java/apoc/load/Xml.java"
+      },
+      {
+        "rule_id": "java.lang.security.audit.xxe.documentbuilderfactory-disallow-doctype-decl-missing.documentbuilderfactory-disallow-doctype-decl-missing",
+        "message": "DOCTYPE declarations are enabled for this DocumentBuilderFactory. This is vulnerable to XML external entity attacks. Disable this by setting the feature \"http://apache.org/xml/features/disallow-doctype-decl\" to true. Alternatively, allow DOCTYPE declarations and only prohibit external entities declarations. This can be done by setting the features \"http://xml.org/sax/features/external-general-entities\" and \"http://xml.org/sax/features/external-parameter-entities\" to false.",
+        "severity": "ERROR",
+        "line": 68,
+        "path": "/workspace/data/vulnerabilities/VUL4J-61/src/main/java/apoc/load/Xml.java"
+      }
+    ],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/apoc/load/Xml.java": {
+        "warning_count": 2,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:18.261039"
+  },
+  "VUL4J-62": {
+    "vul_id": "VUL4J-62",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "enterprise/security/src/main/java/org/neo4j/server/security/enterprise/auth/LdapRealm.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:25.065800"
+  },
+  "VUL4J-63": {
+    "vul_id": "VUL4J-63",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "protocols/ovsdb/rfc/src/main/java/org/onosproject/ovsdb/rfc/utils/VersionUtil.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:32.139509"
+  },
+  "VUL4J-66": {
+    "vul_id": "VUL4J-66",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "resteasy-core/src/main/java/org/jboss/resteasy/plugins/delegates/MediaTypeHeaderDelegate.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:38.793357"
+  },
+  "VUL4J-75": {
+    "vul_id": "VUL4J-75",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/endpoint/SpelView.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:45.532592"
+  },
+  "VUL4J-76": {
+    "vul_id": "VUL4J-76",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "retrofit/src/main/java/retrofit2/RequestBuilder.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:52.056545"
+  },
+  "VUL4J-77": {
+    "vul_id": "VUL4J-77",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:42:58.718645"
+  },
+  "VUL4J-78": {
+    "vul_id": "VUL4J-78",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "xstream/src/java/com/thoughtworks/xstream/XStream.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:43:05.702806"
+  },
+  "VUL4J-79": {
+    "vul_id": "VUL4J-79",
+    "scan_type": "files",
+    "warning_count": 0,
+    "warnings": [],
+    "file_count": 1,
+    "file_results": {
+      "src/main/java/org/zeroturnaround/zip/ZipUtil.java": {
+        "warning_count": 0,
+        "success": true
+      }
+    },
+    "success": true,
+    "timestamp": "2025-12-31T13:43:12.569348"
+  }
+}

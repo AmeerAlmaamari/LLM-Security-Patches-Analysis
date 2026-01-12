@@ -1,0 +1,930 @@
+{
+  "timestamp": "2026-01-06T20:50:29.345279",
+  "total_results": 319,
+  "overall": {
+    "count": 319,
+    "security_score": {
+      "count": 319,
+      "mean": 0.2508,
+      "std": 0.4335,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "q1": 0.0,
+      "q3": 1.0
+    },
+    "functionality_score": {
+      "count": 319,
+      "mean": 0.8324,
+      "std": 0.3635,
+      "median": 0.9985,
+      "min": 0.0,
+      "max": 1.0,
+      "q1": 0.9677,
+      "q3": 1.0
+    },
+    "srs": {
+      "count": 319,
+      "mean": 0.5416,
+      "std": 0.3178,
+      "median": 0.4993,
+      "min": 0.0,
+      "max": 1.0,
+      "q1": 0.4839,
+      "q3": 0.9987
+    },
+    "near_success": {
+      "threshold": 0.8,
+      "count": 1,
+      "rate": 0.0031
+    },
+    "success_tiers": {
+      "perfect": {
+        "count": 79,
+        "rate": 0.2476
+      },
+      "near_success": {
+        "count": 1,
+        "rate": 0.0031
+      },
+      "partial_success": {
+        "count": 188,
+        "rate": 0.5893
+      },
+      "complete_failure": {
+        "count": 51,
+        "rate": 0.1599
+      }
+    },
+    "tradeoff": {
+      "correlation": 0.2667,
+      "p_value": 1.4482,
+      "significant": false,
+      "interpretation": "no significant correlation"
+    }
+  },
+  "by_model": {
+    "gemini-3.0-flash": {
+      "count": 319,
+      "security_score": {
+        "count": 319,
+        "mean": 0.2508,
+        "std": 0.4335,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 319,
+        "mean": 0.8324,
+        "std": 0.3635,
+        "median": 0.9985,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.9677,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 319,
+        "mean": 0.5416,
+        "std": 0.3178,
+        "median": 0.4993,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.4839,
+        "q3": 0.9987
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 1,
+        "rate": 0.0031
+      },
+      "success_tiers": {
+        "perfect": {
+          "count": 79,
+          "rate": 0.2476
+        },
+        "near_success": {
+          "count": 1,
+          "rate": 0.0031
+        },
+        "partial_success": {
+          "count": 188,
+          "rate": 0.5893
+        },
+        "complete_failure": {
+          "count": 51,
+          "rate": 0.1599
+        }
+      },
+      "tradeoff": {
+        "correlation": 0.2667,
+        "p_value": 1.4482,
+        "significant": false,
+        "interpretation": "no significant correlation"
+      }
+    }
+  },
+  "by_cwe": {
+    "CWE-20": {
+      "count": 40,
+      "security_score": {
+        "count": 40,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 40,
+        "mean": 0.9383,
+        "std": 0.2157,
+        "median": 0.9985,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.9706,
+        "q3": 0.9994
+      },
+      "srs": {
+        "count": 40,
+        "mean": 0.4692,
+        "std": 0.1079,
+        "median": 0.4993,
+        "min": 0.0,
+        "max": 0.5,
+        "q1": 0.4853,
+        "q3": 0.4997
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-264": {
+      "count": 20,
+      "security_score": {
+        "count": 20,
+        "mean": 0.15,
+        "std": 0.3571,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 20,
+        "mean": 0.9962,
+        "std": 0.006,
+        "median": 0.9994,
+        "min": 0.9859,
+        "max": 1.0,
+        "q1": 0.9988,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 20,
+        "mean": 0.5731,
+        "std": 0.1794,
+        "median": 0.4997,
+        "min": 0.493,
+        "max": 1.0,
+        "q1": 0.4994,
+        "q3": 0.5
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-835": {
+      "count": 40,
+      "security_score": {
+        "count": 40,
+        "mean": 0.45,
+        "std": 0.4975,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 40,
+        "mean": 0.9995,
+        "std": 0.0008,
+        "median": 1.0,
+        "min": 0.9981,
+        "max": 1.0,
+        "q1": 0.9989,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 40,
+        "mean": 0.7247,
+        "std": 0.249,
+        "median": 0.5,
+        "min": 0.499,
+        "max": 1.0,
+        "q1": 0.4994,
+        "q3": 1.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-611": {
+      "count": 25,
+      "security_score": {
+        "count": 25,
+        "mean": 0.4,
+        "std": 0.4899,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 25,
+        "mean": 0.6313,
+        "std": 0.4737,
+        "median": 0.96,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 25,
+        "mean": 0.5157,
+        "std": 0.4357,
+        "median": 0.48,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "Not Mapping": {
+      "count": 49,
+      "security_score": {
+        "count": 49,
+        "mean": 0.2041,
+        "std": 0.403,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 49,
+        "mean": 0.611,
+        "std": 0.4862,
+        "median": 0.9971,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 0.9989
+      },
+      "srs": {
+        "count": 49,
+        "mean": 0.4075,
+        "std": 0.3734,
+        "median": 0.4986,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 0.4994
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-22": {
+      "count": 25,
+      "security_score": {
+        "count": 25,
+        "mean": 0.2,
+        "std": 0.4,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 25,
+        "mean": 0.7162,
+        "std": 0.4466,
+        "median": 0.9909,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 0.9977
+      },
+      "srs": {
+        "count": 25,
+        "mean": 0.4581,
+        "std": 0.3439,
+        "median": 0.4955,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 0.4988
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-284": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.9766,
+        "std": 0.0,
+        "median": 0.9766,
+        "min": 0.9766,
+        "max": 0.9766,
+        "q1": 0.9766,
+        "q3": 0.9766
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.4883,
+        "std": 0.0,
+        "median": 0.4883,
+        "min": 0.4883,
+        "max": 0.4883,
+        "q1": 0.4883,
+        "q3": 0.4883
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-79": {
+      "count": 30,
+      "security_score": {
+        "count": 30,
+        "mean": 0.1667,
+        "std": 0.3727,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 30,
+        "mean": 0.8108,
+        "std": 0.3638,
+        "median": 0.9704,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.9231,
+        "q3": 0.9994
+      },
+      "srs": {
+        "count": 30,
+        "mean": 0.4887,
+        "std": 0.2891,
+        "median": 0.4852,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.4615,
+        "q3": 0.4997
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-77": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.9994,
+        "std": 0.0,
+        "median": 0.9994,
+        "min": 0.9994,
+        "max": 0.9994,
+        "q1": 0.9994,
+        "q3": 0.9994
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.4997,
+        "std": 0.0,
+        "median": 0.4997,
+        "min": 0.4997,
+        "max": 0.4997,
+        "q1": 0.4997,
+        "q3": 0.4997
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-352": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.4,
+        "std": 0.4899,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.4,
+        "std": 0.4899,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.4,
+        "std": 0.4899,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-502": {
+      "count": 15,
+      "security_score": {
+        "count": 15,
+        "mean": 0.3333,
+        "std": 0.4714,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 15,
+        "mean": 0.9933,
+        "std": 0.0242,
+        "median": 1.0,
+        "min": 0.9026,
+        "max": 1.0,
+        "q1": 0.9994,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 15,
+        "mean": 0.6633,
+        "std": 0.2384,
+        "median": 0.5,
+        "min": 0.4513,
+        "max": 1.0,
+        "q1": 0.4997,
+        "q3": 1.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-74": {
+      "count": 10,
+      "security_score": {
+        "count": 10,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 10,
+        "mean": 0.9997,
+        "std": 0.0008,
+        "median": 1.0,
+        "min": 0.9973,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 10,
+        "mean": 0.9999,
+        "std": 0.0004,
+        "median": 1.0,
+        "min": 0.9987,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 1,
+        "rate": 0.1
+      }
+    },
+    "CWE-200": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-287": {
+      "count": 10,
+      "security_score": {
+        "count": 10,
+        "mean": 0.3,
+        "std": 0.4583,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 0.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 10,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 10,
+        "mean": 0.65,
+        "std": 0.2291,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 1.0,
+        "q1": 0.5,
+        "q3": 1.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-78": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.9408,
+        "std": 0.0061,
+        "median": 0.9401,
+        "min": 0.9331,
+        "max": 0.9507,
+        "q1": 0.9366,
+        "q3": 0.9437
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.4704,
+        "std": 0.0031,
+        "median": 0.4701,
+        "min": 0.4665,
+        "max": 0.4754,
+        "q1": 0.4683,
+        "q3": 0.4718
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-310": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.8,
+        "std": 0.4,
+        "median": 1.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.998,
+        "std": 0.0039,
+        "median": 1.0,
+        "min": 0.9902,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.899,
+        "std": 0.202,
+        "median": 1.0,
+        "min": 0.4951,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-269": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.9818,
+        "std": 0.0,
+        "median": 0.9818,
+        "min": 0.9818,
+        "max": 0.9818,
+        "q1": 0.9818,
+        "q3": 0.9818
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.4909,
+        "std": 0.0,
+        "median": 0.4909,
+        "min": 0.4909,
+        "max": 0.4909,
+        "q1": 0.4909,
+        "q3": 0.4909
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-918": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "srs": {
+        "count": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-532": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.9655,
+        "std": 0.0,
+        "median": 0.9655,
+        "min": 0.9655,
+        "max": 0.9655,
+        "q1": 0.9655,
+        "q3": 0.9655
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.4828,
+        "std": 0.0,
+        "median": 0.4828,
+        "min": 0.4828,
+        "max": 0.4828,
+        "q1": 0.4828,
+        "q3": 0.4828
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-863": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.7932,
+        "std": 0.3966,
+        "median": 0.9915,
+        "min": 0.0,
+        "max": 0.9915,
+        "q1": 0.9915,
+        "q3": 0.9915
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.3966,
+        "std": 0.1983,
+        "median": 0.4957,
+        "min": 0.0,
+        "max": 0.4957,
+        "q1": 0.4957,
+        "q3": 0.4957
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "CWE-19": {
+      "count": 5,
+      "security_score": {
+        "count": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "functionality_score": {
+        "count": 5,
+        "mean": 0.9956,
+        "std": 0.0008,
+        "median": 0.9949,
+        "min": 0.9949,
+        "max": 0.9966,
+        "q1": 0.9949,
+        "q3": 0.9966
+      },
+      "srs": {
+        "count": 5,
+        "mean": 0.4978,
+        "std": 0.0004,
+        "median": 0.4975,
+        "min": 0.4975,
+        "max": 0.4983,
+        "q1": 0.4975,
+        "q3": 0.4983
+      },
+      "near_success": {
+        "threshold": 0.8,
+        "count": 0,
+        "rate": 0.0
+      }
+    }
+  }
+}

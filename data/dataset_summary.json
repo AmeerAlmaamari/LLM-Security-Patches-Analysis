@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-17T04:49:21.424553",
+  "phase": "Phase 1: Dataset Preparation",
+  "status": "SUCCESS",
+  "deliverables": {
+    "vulnerability_list.json": {
+      "exists": true,
+      "count": 64
+    },
+    "vulnerability_metadata.json": {
+      "exists": true,
+      "count": 64
+    },
+    "checkout_status.json": {
+      "exists": true,
+      "successful": 64,
+      "failed": 0
+    },
+    "vulnerable_code.json": {
+      "exists": true,
+      "vulnerabilities": 64,
+      "total_files": 76
+    },
+    "vulnerabilities_directory": {
+      "exists": true,
+      "checkout_count": 64
+    }
+  },
+  "statistics": {
+    "total_vulnerabilities": 64,
+    "cwe_distribution": {
+      "CWE-20": 8,
+      "CWE-611": 5,
+      "Not Mapping": 10,
+      "CWE-835": 8,
+      "CWE-264": 4,
+      "CWE-22": 5,
+      "CWE-284": 1,
+      "CWE-79": 6,
+      "CWE-77": 1,
+      "CWE-352": 1,
+      "CWE-502": 3,
+      "CWE-74": 2,
+      "CWE-200": 1,
+      "CWE-287": 2,
+      "CWE-78": 1,
+      "CWE-310": 1,
+      "CWE-269": 1,
+      "CWE-918": 1,
+      "CWE-532": 1,
+      "CWE-863": 1,
+      "CWE-19": 1
+    },
+    "successful_checkouts": 64,
+    "failed_checkouts": 0,
+    "vulnerabilities_with_code": 64,
+    "total_vulnerable_files": 76
+  },
+  "issues": [],
+  "ready_for_phase_2": true
+}

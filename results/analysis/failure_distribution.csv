@@ -1,0 +1,17 @@
+=== Overall Distribution ===
+Category,Count,Percentage
+insecure_and_breaking,164,51.41%
+correct_and_secure,79,24.76%
+compile_error,42,13.17%
+security_failure,33,10.34%
+functionality_failure,1,0.31%
+
+=== Per-Model Distribution ===
+Model: gemini-3.0-flash
+Category,Count,Percentage
+insecure_and_breaking,164,51.41%
+correct_and_secure,79,24.76%
+compile_error,42,13.17%
+security_failure,33,10.34%
+functionality_failure,1,0.31%
+

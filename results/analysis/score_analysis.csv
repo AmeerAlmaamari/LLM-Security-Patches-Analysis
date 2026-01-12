@@ -1,0 +1,24 @@
+=== Overall Score Statistics ===
+Metric,Mean,Std,Median,Min,Max,Q1,Q3
+security_score,0.2508,0.4335,0.0,0.0,1.0,0.0,1.0
+functionality_score,0.8324,0.3635,0.9985,0.0,1.0,0.9677,1.0
+srs,0.5416,0.3178,0.4993,0.0,1.0,0.4839,0.9987
+
+=== Near-Success Rate (0.8 <= SRS < 1.0) ===
+Count,Rate
+1,0.31%
+
+=== Success Tiers ===
+Tier,Count,Rate
+perfect,79,24.76%
+near_success,1,0.31%
+partial_success,188,58.93%
+complete_failure,51,15.99%
+
+=== Security-Functionality Trade-off ===
+Correlation,P-value,Significant,Interpretation
+0.2667,1.4482,False,no significant correlation
+
+=== Per-Model Summary ===
+Model,Count,SRS Mean,SRS Std,Near-Success Rate
+gemini-3.0-flash,319,0.5416,0.3178,0.31%

@@ -1,0 +1,560 @@
+{
+  "timestamp": "2026-01-06T20:50:19.681487",
+  "total_results": 319,
+  "overall_distribution": {
+    "total": 319,
+    "primary_distribution": {
+      "insecure_and_breaking": {
+        "count": 164,
+        "percentage": 51.41
+      },
+      "correct_and_secure": {
+        "count": 79,
+        "percentage": 24.76
+      },
+      "compile_error": {
+        "count": 42,
+        "percentage": 13.17
+      },
+      "security_failure": {
+        "count": 33,
+        "percentage": 10.34
+      },
+      "functionality_failure": {
+        "count": 1,
+        "percentage": 0.31
+      }
+    },
+    "subcategory_distribution": {
+      "insecure_and_breaking/wrong_strategy+behavioral_change": {
+        "count": 143,
+        "percentage": 44.83
+      },
+      "compile_error/other": {
+        "count": 42,
+        "percentage": 13.17
+      },
+      "security_failure/wrong_strategy": {
+        "count": 33,
+        "percentage": 10.34
+      },
+      "insecure_and_breaking/wrong_strategy+api_violation": {
+        "count": 17,
+        "percentage": 5.33
+      },
+      "insecure_and_breaking/wrong_strategy+overcorrection": {
+        "count": 4,
+        "percentage": 1.25
+      },
+      "functionality_failure/behavioral_change": {
+        "count": 1,
+        "percentage": 0.31
+      }
+    }
+  },
+  "by_model": {
+    "gemini-3.0-flash": {
+      "total": 319,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 164,
+          "percentage": 51.41
+        },
+        "correct_and_secure": {
+          "count": 79,
+          "percentage": 24.76
+        },
+        "compile_error": {
+          "count": 42,
+          "percentage": 13.17
+        },
+        "security_failure": {
+          "count": 33,
+          "percentage": 10.34
+        },
+        "functionality_failure": {
+          "count": 1,
+          "percentage": 0.31
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 143,
+          "percentage": 44.83
+        },
+        "compile_error/other": {
+          "count": 42,
+          "percentage": 13.17
+        },
+        "security_failure/wrong_strategy": {
+          "count": 33,
+          "percentage": 10.34
+        },
+        "insecure_and_breaking/wrong_strategy+api_violation": {
+          "count": 17,
+          "percentage": 5.33
+        },
+        "insecure_and_breaking/wrong_strategy+overcorrection": {
+          "count": 4,
+          "percentage": 1.25
+        },
+        "functionality_failure/behavioral_change": {
+          "count": 1,
+          "percentage": 0.31
+        }
+      }
+    }
+  },
+  "by_cwe": {
+    "CWE-20": {
+      "total": 40,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 33,
+          "percentage": 82.5
+        },
+        "security_failure": {
+          "count": 5,
+          "percentage": 12.5
+        },
+        "compile_error": {
+          "count": 2,
+          "percentage": 5.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 33,
+          "percentage": 82.5
+        },
+        "security_failure/wrong_strategy": {
+          "count": 5,
+          "percentage": 12.5
+        },
+        "compile_error/other": {
+          "count": 2,
+          "percentage": 5.0
+        }
+      }
+    },
+    "CWE-264": {
+      "total": 20,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 10,
+          "percentage": 50.0
+        },
+        "security_failure": {
+          "count": 7,
+          "percentage": 35.0
+        },
+        "correct_and_secure": {
+          "count": 3,
+          "percentage": 15.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 10,
+          "percentage": 50.0
+        },
+        "security_failure/wrong_strategy": {
+          "count": 7,
+          "percentage": 35.0
+        }
+      }
+    },
+    "CWE-835": {
+      "total": 40,
+      "primary_distribution": {
+        "correct_and_secure": {
+          "count": 18,
+          "percentage": 45.0
+        },
+        "insecure_and_breaking": {
+          "count": 12,
+          "percentage": 30.0
+        },
+        "security_failure": {
+          "count": 10,
+          "percentage": 25.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 12,
+          "percentage": 30.0
+        },
+        "security_failure/wrong_strategy": {
+          "count": 10,
+          "percentage": 25.0
+        }
+      }
+    },
+    "CWE-611": {
+      "total": 25,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 10,
+          "percentage": 40.0
+        },
+        "correct_and_secure": {
+          "count": 10,
+          "percentage": 40.0
+        },
+        "compile_error": {
+          "count": 5,
+          "percentage": 20.0
+        }
+      },
+      "subcategory_distribution": {
+        "compile_error/other": {
+          "count": 5,
+          "percentage": 20.0
+        },
+        "insecure_and_breaking/wrong_strategy+api_violation": {
+          "count": 5,
+          "percentage": 20.0
+        },
+        "insecure_and_breaking/wrong_strategy+overcorrection": {
+          "count": 4,
+          "percentage": 16.0
+        },
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 1,
+          "percentage": 4.0
+        }
+      }
+    },
+    "Not Mapping": {
+      "total": 49,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 25,
+          "percentage": 51.02
+        },
+        "compile_error": {
+          "count": 14,
+          "percentage": 28.57
+        },
+        "correct_and_secure": {
+          "count": 10,
+          "percentage": 20.41
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 25,
+          "percentage": 51.02
+        },
+        "compile_error/other": {
+          "count": 14,
+          "percentage": 28.57
+        }
+      }
+    },
+    "CWE-22": {
+      "total": 25,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 13,
+          "percentage": 52.0
+        },
+        "compile_error": {
+          "count": 7,
+          "percentage": 28.0
+        },
+        "correct_and_secure": {
+          "count": 5,
+          "percentage": 20.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 13,
+          "percentage": 52.0
+        },
+        "compile_error/other": {
+          "count": 7,
+          "percentage": 28.0
+        }
+      }
+    },
+    "CWE-284": {
+      "total": 5,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    "CWE-79": {
+      "total": 30,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 20,
+          "percentage": 66.67
+        },
+        "compile_error": {
+          "count": 5,
+          "percentage": 16.67
+        },
+        "correct_and_secure": {
+          "count": 5,
+          "percentage": 16.67
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 15,
+          "percentage": 50.0
+        },
+        "compile_error/other": {
+          "count": 5,
+          "percentage": 16.67
+        },
+        "insecure_and_breaking/wrong_strategy+api_violation": {
+          "count": 5,
+          "percentage": 16.67
+        }
+      }
+    },
+    "CWE-77": {
+      "total": 5,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    "CWE-352": {
+      "total": 5,
+      "primary_distribution": {
+        "compile_error": {
+          "count": 3,
+          "percentage": 60.0
+        },
+        "correct_and_secure": {
+          "count": 2,
+          "percentage": 40.0
+        }
+      },
+      "subcategory_distribution": {
+        "compile_error/other": {
+          "count": 3,
+          "percentage": 60.0
+        }
+      }
+    },
+    "CWE-502": {
+      "total": 15,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 6,
+          "percentage": 40.0
+        },
+        "correct_and_secure": {
+          "count": 5,
+          "percentage": 33.33
+        },
+        "security_failure": {
+          "count": 4,
+          "percentage": 26.67
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 5,
+          "percentage": 33.33
+        },
+        "security_failure/wrong_strategy": {
+          "count": 4,
+          "percentage": 26.67
+        },
+        "insecure_and_breaking/wrong_strategy+api_violation": {
+          "count": 1,
+          "percentage": 6.67
+        }
+      }
+    },
+    "CWE-74": {
+      "total": 10,
+      "primary_distribution": {
+        "correct_and_secure": {
+          "count": 9,
+          "percentage": 90.0
+        },
+        "functionality_failure": {
+          "count": 1,
+          "percentage": 10.0
+        }
+      },
+      "subcategory_distribution": {
+        "functionality_failure/behavioral_change": {
+          "count": 1,
+          "percentage": 10.0
+        }
+      }
+    },
+    "CWE-200": {
+      "total": 5,
+      "primary_distribution": {
+        "compile_error": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      },
+      "subcategory_distribution": {
+        "compile_error/other": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    "CWE-287": {
+      "total": 10,
+      "primary_distribution": {
+        "security_failure": {
+          "count": 7,
+          "percentage": 70.0
+        },
+        "correct_and_secure": {
+          "count": 3,
+          "percentage": 30.0
+        }
+      },
+      "subcategory_distribution": {
+        "security_failure/wrong_strategy": {
+          "count": 7,
+          "percentage": 70.0
+        }
+      }
+    },
+    "CWE-78": {
+      "total": 5,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    "CWE-310": {
+      "total": 5,
+      "primary_distribution": {
+        "correct_and_secure": {
+          "count": 4,
+          "percentage": 80.0
+        },
+        "insecure_and_breaking": {
+          "count": 1,
+          "percentage": 20.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+api_violation": {
+          "count": 1,
+          "percentage": 20.0
+        }
+      }
+    },
+    "CWE-269": {
+      "total": 5,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    "CWE-918": {
+      "total": 5,
+      "primary_distribution": {
+        "correct_and_secure": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      },
+      "subcategory_distribution": {}
+    },
+    "CWE-532": {
+      "total": 5,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    "CWE-863": {
+      "total": 5,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 4,
+          "percentage": 80.0
+        },
+        "compile_error": {
+          "count": 1,
+          "percentage": 20.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+behavioral_change": {
+          "count": 4,
+          "percentage": 80.0
+        },
+        "compile_error/other": {
+          "count": 1,
+          "percentage": 20.0
+        }
+      }
+    },
+    "CWE-19": {
+      "total": 5,
+      "primary_distribution": {
+        "insecure_and_breaking": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      },
+      "subcategory_distribution": {
+        "insecure_and_breaking/wrong_strategy+api_violation": {
+          "count": 5,
+          "percentage": 100.0
+        }
+      }
+    }
+  }
+}

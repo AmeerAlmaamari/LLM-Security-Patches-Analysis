@@ -1,0 +1,293 @@
+{
+  "timestamp": "2026-01-06T20:50:08.582385",
+  "total_patches": 319,
+  "by_model": {
+    "gemini-3.0-flash": {
+      "total": 319,
+      "insecure_and_breaking": 164,
+      "compile_error": 42,
+      "correct_and_secure": 79,
+      "security_failure": 33,
+      "functionality_failure": 1
+    }
+  },
+  "by_vulnerability": {
+    "VUL4J-1": {
+      "total": 5,
+      "insecure_and_breaking": 3,
+      "compile_error": 2
+    },
+    "VUL4J-10": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-11": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-12": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-13": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-14": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-15": {
+      "total": 5,
+      "compile_error": 5
+    },
+    "VUL4J-16": {
+      "total": 5,
+      "security_failure": 5
+    },
+    "VUL4J-17": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-18": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-19": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-2": {
+      "total": 5,
+      "insecure_and_breaking": 4,
+      "correct_and_secure": 1
+    },
+    "VUL4J-20": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-22": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-23": {
+      "total": 5,
+      "compile_error": 5
+    },
+    "VUL4J-24": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-25": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-26": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-27": {
+      "total": 5,
+      "correct_and_secure": 3,
+      "security_failure": 2
+    },
+    "VUL4J-29": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-3": {
+      "total": 4,
+      "compile_error": 4
+    },
+    "VUL4J-30": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-32": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-33": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-34": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-35": {
+      "total": 5,
+      "compile_error": 3,
+      "correct_and_secure": 2
+    },
+    "VUL4J-36": {
+      "total": 5,
+      "correct_and_secure": 4,
+      "insecure_and_breaking": 1
+    },
+    "VUL4J-37": {
+      "total": 5,
+      "security_failure": 4,
+      "insecure_and_breaking": 1
+    },
+    "VUL4J-38": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-39": {
+      "total": 5,
+      "compile_error": 5
+    },
+    "VUL4J-4": {
+      "total": 5,
+      "compile_error": 5
+    },
+    "VUL4J-40": {
+      "total": 5,
+      "security_failure": 5
+    },
+    "VUL4J-41": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-42": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-43": {
+      "total": 5,
+      "compile_error": 2,
+      "insecure_and_breaking": 3
+    },
+    "VUL4J-44": {
+      "total": 5,
+      "correct_and_secure": 4,
+      "insecure_and_breaking": 1
+    },
+    "VUL4J-45": {
+      "total": 5,
+      "correct_and_secure": 4,
+      "functionality_failure": 1
+    },
+    "VUL4J-46": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-47": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-48": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-49": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-5": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-50": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-52": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-53": {
+      "total": 5,
+      "security_failure": 5
+    },
+    "VUL4J-55": {
+      "total": 5,
+      "security_failure": 5
+    },
+    "VUL4J-56": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-57": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-58": {
+      "total": 5,
+      "insecure_and_breaking": 4,
+      "compile_error": 1
+    },
+    "VUL4J-59": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-6": {
+      "total": 5,
+      "correct_and_secure": 4,
+      "insecure_and_breaking": 1
+    },
+    "VUL4J-60": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-61": {
+      "total": 5,
+      "correct_and_secure": 4,
+      "insecure_and_breaking": 1
+    },
+    "VUL4J-62": {
+      "total": 5,
+      "security_failure": 2,
+      "correct_and_secure": 3
+    },
+    "VUL4J-63": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-66": {
+      "total": 5,
+      "security_failure": 5
+    },
+    "VUL4J-7": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-75": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-76": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-77": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-78": {
+      "total": 5,
+      "insecure_and_breaking": 5
+    },
+    "VUL4J-79": {
+      "total": 5,
+      "compile_error": 5
+    },
+    "VUL4J-8": {
+      "total": 5,
+      "correct_and_secure": 5
+    },
+    "VUL4J-9": {
+      "total": 5,
+      "compile_error": 5
+    }
+  },
+  "overall": {
+    "total": 319,
+    "insecure_and_breaking": 164,
+    "compile_error": 42,
+    "correct_and_secure": 79,
+    "security_failure": 33,
+    "functionality_failure": 1
+  }
+}
